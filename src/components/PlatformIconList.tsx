@@ -11,11 +11,7 @@ import { SiNintendo } from "react-icons/si";
 import { BsGlobe } from "react-icons/bs";
 import { HStack, Icon } from "@chakra-ui/react";
 import { IconType } from "react-icons";
-<<<<<<< Updated upstream
-import { Platform } from "../hooks/usePlatforms";
-=======
 import Platform from "../entities/Platform";
->>>>>>> Stashed changes
 
 interface Props {
   platforms: Platform[];
