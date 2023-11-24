@@ -2,6 +2,10 @@ import { useQuery } from "@tanstack/react-query";
 import genres from "../data/genres";
 import APIClient from "../services/api-client";
 import ms from "ms";
+<<<<<<< Updated upstream
+=======
+import Genre from "../entities/Genre";
+>>>>>>> Stashed changes
 
 const apiClient = new APIClient<Genre>('/genres');
 

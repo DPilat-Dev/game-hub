@@ -1,5 +1,9 @@
 import React from "react";
+<<<<<<< Updated upstream
 import { Game } from "../hooks/useGames";
+=======
+import Game from "../entities/Game";
+>>>>>>> Stashed changes
 import { Card, CardBody, HStack, Heading, Image, Text } from "@chakra-ui/react";
 import PlatformIconList from "./PlatformIconList";
 import CriticScore from "./CriticScore";
